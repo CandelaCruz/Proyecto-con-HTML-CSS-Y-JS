@@ -1,0 +1,387 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Encabezado*/
+
+body {
+    font-family: "Poppins", sans-serif;
+    ;
+}
+
+nav {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    flex-wrap: wrap;
+
+
+}
+
+.logo img {
+    height: 45px;
+    width: 100px;
+}
+
+
+.items a {
+    color: #121212;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.items {
+    display: flex;
+    gap: 20px;
+}
+
+.items a:hover {
+    border-bottom: 2px solid #121212;
+
+
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.iconos a {
+    color: #121212;
+    margin: 5px;
+}
+
+.hamburger-menu {
+    display: none;
+    color: #121212;
+}
+
+/*Hero*/
+
+.hero {
+    background-image: url(imagenes/imagen-hero.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-left: 20px;
+    color: #fff3e6;
+
+
+}
+
+.hero-content {
+    max-width: 400px;
+    padding: 20px 25px;
+
+}
+
+.hero-content button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #121212;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.hero-content a :hover {
+    background-color: white;
+    color: #121212;
+}
+
+/*About*/
+
+.text-content,
+.learnMore {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+
+}
+
+
+.btn-content {
+    background-color: #735646;
+    /*background-color: white;*/
+    color: white;
+    border: none;
+    font-weight: bolder
+}
+
+/*leer mas, leer menos*/
+
+.learnMore {
+    display: none;
+}
+
+.hiddenText {
+    display: block;
+}
+
+/*Slider/Carrusel card*/
+
+.carrusel {
+    background-color: #A78D78;
+    padding: 40px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+
+
+}
+
+
+.carruselCard-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    scroll-behavior: smooth;
+   
+
+}
+
+.carruselImg img {
+    flex: 0 0 auto;
+    border: solid 1px black;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    object-fit: cover;
+
+}
+
+
+
+.carruselCard-container::-webkit-scrollbar {
+    display: none;
+
+}
+
+
+
+.carrusel-btn-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+#btnRigth {
+    cursor: pointer;
+}
+
+#btnLeft {
+    cursor: pointer;
+}
+
+
+/*Card*/
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.card {
+    border: none;
+
+}
+
+.card:hover {
+    border: 1px solid #735646;
+}
+
+
+
+.card-text {
+    font-size: 13px;
+
+}
+
+.card-price {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/*Formulario*/
+
+.formContact {
+    background-color: #f2ede4;
+    padding: 17px 0;
+
+
+
+}
+
+.formcontainer,
+h2,
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.formcontainer,
+button {
+    border: none;
+    border-radius: 50px;
+    background-color: #121212;
+    color: white;
+    padding: 5px 20px;
+    font-size: 12px;
+
+}
+
+.form-container {
+    max-width: 450px;
+    margin: 30px auto;
+}
+
+.form-control {
+    border: 1px solid #121212;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px
+}
+
+.form-control:focus {
+    border-color: #735646;
+}
+
+.form-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #A78D78;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+.form-control.valid {
+    border-color: green;
+}
+
+
+/*Fotter*/
+
+.sub-menu {
+    background-color: black;
+    padding: 15px 15px;
+
+}
+
+.sub-logo img {
+    height: 20px;
+    width: 90px;
+}
+
+
+.sub-logo span {
+    color: white;
+    text-transform: uppercase;
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+
+}
+
+.sub-items a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: lighter;
+
+}
+
+.sub-items {
+    display: flex;
+    gap: 20px;
+}
+
+.sub-iconos a {
+    color: azure;
+    margin: 5px;
+
+
+}
+
+
+
+/*Media query*/
+
+@media(max-width:755px) {
+    .iconos {
+        display: none;
+    }
+
+}
+
+@media(max-width:755px) {
+    .items a {
+        display: none;
+    }
+}
+
+
+@media(max-width:768px) {
+
+    .form-container,
+    h2 {
+        font-weight: normal;
+
+
+    }
+}
+
+@media(max-width:755px) {
+    .hamburger-menu {
+
+        display: block;
+
+    }
+
+}
+
+
+@media(max-width:755px) {
+    .sub-items {
+        display: none;
+    }
+}
