@@ -1,5 +1,4 @@
-# Proyecto-con-HTML-CSS-Y-JS
-# Proyecto-con-HTML-CSS-Y-JS
+
 # 🌐 Proyecto con HTML, CSS y JavaScript  
 
 ¡Bienvenido a mi proyecto web! 🎉 Este repositorio contiene un sitio web que estoy desarrollando como parte de mi curso de **Desarrollo Web**. El proyecto combina **HTML**, **CSS** y **JavaScript** para crear una página funcional, interactiva y responsiva.  
